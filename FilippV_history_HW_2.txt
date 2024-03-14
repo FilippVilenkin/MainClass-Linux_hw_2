@@ -1,0 +1,23 @@
+   0 mkdir -p /home/user/start && touch /home/user/start/1.txt
+   1 echo "Start" >> /home/user/start/1.txt
+   2 cd /home
+   3 cd user/start
+   4 date +'%D' >> 1.txt
+   5 cat 1.txt
+   6 mkdir -p /opt/task && touch /opt/task/start.txt
+   7 cd /opt
+   8 tree
+   9 cp /home/user/start/1.txt /opt/task/start.txt
+  10 cat /opt/task/start.txt
+  11 cd ..
+  12 ls -la / | tail -4 >> /opt/start.txt
+  13 cat /opt/task/start.txt
+  14 ls -la / | tail -4 >> /opt/task/start.txt
+  15 cat /opt/task/start.txt
+  16 cd /opt
+  17 tree
+  18 rm /opt/start.txt
+  19 tree
+  20 cat /opt/task/start.txt
+  21 cd
+  22 history >  history.txt
